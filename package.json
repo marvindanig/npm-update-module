@@ -14,7 +14,8 @@
     "npm",
     "package",
     "update",
-    "tool"
+    "tool",
+    "commander"
   ],
   "license": "MIT",
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
