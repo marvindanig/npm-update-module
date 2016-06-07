@@ -6,14 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marvindanig/npm-update-module.git"
+  },
   "keywords": [
     "npm",
     "package",
     "update",
     "tool"
   ],
+  "license": "MIT",
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
-  "license": "ISC",
   "dependencies": {
     "executive": "1.1.5",
     "npm-exists": "0.1.0"
