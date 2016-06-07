@@ -3,8 +3,8 @@ function update(moduleName) {
 
   exists(moduleName).then(moduleExists => {
       if (moduleExists) {
-        exec(`npm uninstall -g${moduleName}`);
-        exec('npm cache clean');
+        exec.quiet(`npm uninstall -g${moduleName}`);
+        exec.quiet('npm cache clean');
         exec(`npm i -g${moduleName}`);
       } else {
           console.log('Gosh, you have unique package!');
