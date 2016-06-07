@@ -1,0 +1,16 @@
+{
+  "name": "npm-update-module",
+  "version": "1.0.0",
+  "description": "Command your global module to update",
+  "main": "updater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "npm", "package", "update", "tool" ],
+  "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
+  "license": "ISC",
+  "dependencies": {
+    "executive": "1.1.5",
+    "npm-exists": "0.1.0"
+  }
+}
