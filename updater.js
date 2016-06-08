@@ -1,5 +1,6 @@
 function update(moduleName) {
   const exists = require('npm-exists');
+  const exec = require('executive');
 
   exists(moduleName).then(moduleExists => {
       if (moduleExists) {
