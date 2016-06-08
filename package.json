@@ -1,6 +1,6 @@
 {
   "name": "npm-update-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command your global module to update",
   "main": "updater.js",
   "scripts": {
