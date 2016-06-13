@@ -8,7 +8,7 @@ function update(moduleName) {
         exec.quiet('npm cache clean');
         exec(`npm i -g${moduleName}`);
       } else {
-          console.log('Gosh, you have unique package!');
+          console.log('Gosh, you gotta unique package!');
       }
   });
 }
